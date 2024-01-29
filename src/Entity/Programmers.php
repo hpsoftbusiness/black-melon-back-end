@@ -11,6 +11,8 @@ use Doctrine\ORM\Mapping as ORM;
 #[ORM\Entity(repositoryClass: ProgrammersRepository::class)]
 class Programmers
 {
+    const RESOURCE_KEY = 'programmers';
+
     #[ORM\Id]
     #[ORM\GeneratedValue]
     #[ORM\Column]
