@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<list xmlns="http://schemas.sulu.io/list-builder/list">
+
+    <key>programmers</key>
+
+    <properties>
+        <property name="id" visibility="no" translation="sulu_admin.id">
+            <field-name>id</field-name>
+            <entity-name>App\Entity\Programmers</entity-name>
+        </property>
+
+        <property name="name" visibility="always" searchability="yes" translation="sulu_admin.name">
+            <field-name>name</field-name>
+            <entity-name>App\Entity\Programmers</entity-name>
+        </property>
+
+        <property name="surname" visibility="always" searchability="yes" translation="sulu_admin.surname">
+            <field-name>surname</field-name>
+            <entity-name>App\Entity\Programmers</entity-name>
+        </property>
+
+        <property name="birthDate" visibility="always" translation="app.birth_date" type="datetime">
+            <field-name>birth_date</field-name>
+            <entity-name>App\Entity\Programmers</entity-name>
+        </property>
+
+        <property name="height" visibility="always" translation="app.height">
+            <field-name>height</field-name>
+            <entity-name>App\Entity\Programmers</entity-name>
+        </property>
+
+        <property name="linkToGithub" visibility="always" translation="app.link_to_github">
+            <field-name>link_to_github</field-name>
+            <entity-name>App\Entity\Programmers</entity-name>
+        </property>
+
+        <!-- Add other properties as needed based on your entity structure -->
+
+    </properties>
+</list>
