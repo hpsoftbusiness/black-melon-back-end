@@ -36,3 +36,5 @@ services:
         tags: [ { name: 'sulu.smart_content.data_provider', alias: 'programmers' } ]
         bind:
             $repository: '@App\Repository\ProgrammersRepository'
+
+

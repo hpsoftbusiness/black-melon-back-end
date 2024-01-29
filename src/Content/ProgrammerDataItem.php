@@ -5,8 +5,6 @@ declare(strict_types=1);
 namespace App\Content;
 
 use App\Entity\Programmers;
-use JMS\Serializer\Annotation as Serializer;
-use Sulu\Component\SmartContent\ItemInterface;
 
 class ProgrammerDataItem
 {

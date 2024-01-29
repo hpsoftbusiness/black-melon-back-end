@@ -35,6 +35,7 @@
         "fzaninotto/faker": "^1.5",
         "handcraftedinthealps/zendsearch": "^2.1",
         "jackalope/jackalope-doctrine-dbal": "^1.10",
+        "nelmio/cors-bundle": "^2.4",
         "scheb/2fa-bundle": "^6.1",
         "scheb/2fa-email": "^6.1",
         "scheb/2fa-trusted-device": "^6.1",
